@@ -416,3 +416,8 @@ a.scrap__tile:hover .ic--bg{transform:rotate(-8deg) scale(1.06);color:color-mix(
 .why--noimg{display:block}
 .why--noimg .why__list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px 32px;margin-top:28px}
 @media (max-width:700px){.why--noimg .why__list{grid-template-columns:1fr}}
+
+/* Galeri: 3 fotoğraf eşit, yan yana (mobilde de) */
+.gallery--3{grid-template-columns:repeat(3,1fr);grid-auto-rows:280px}
+@media (max-width:1000px){.gallery--3{grid-template-columns:repeat(3,1fr);grid-auto-rows:200px}}
+@media (max-width:600px){.gallery--3{grid-template-columns:repeat(3,1fr);grid-auto-rows:130px;gap:6px}.gallery--3 figcaption{font-size:.72rem;padding:18px 6px 6px}}
