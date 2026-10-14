@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://efecanspot.com.tr/sitemap.xml
